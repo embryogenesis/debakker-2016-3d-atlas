@@ -14,7 +14,7 @@ Licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by/4.0/); 
 
 ## What this is
 
-Fourteen specimens spanning Carnegie stages 7 to 23, segmented from roughly 15,000 manually annotated histological sections of Carnegie collection embryos, with structures named according to Terminologia Embryologica. Each specimen ships a grey-value volume and a label volume in both AmiraMesh and multipage TIFF, plus an interactive 3D-PDF. This is the most complete segmented human embryo series that exists, and the label files carry the label names, which is what makes them usable rather than merely large.
+Fourteen specimens spanning Carnegie stages 7 to 23, segmented from approximately 15,000 manually annotated histological sections of Carnegie collection embryos, with structures named according to Terminologia Embryologica. Each specimen was deposited as a grey-value volume and a label volume in both AmiraMesh and multi-page TIFF, plus an interactive 3D-PDF. The AmiraMesh label headers include the label-name to index mapping; the TIFFs carry index values only.
 
 ## NonCommercial and NoDerivatives: what that means here
 
@@ -23,7 +23,7 @@ This licence **permits** what this repository does — reproducing and sharing t
 - **No commercial use.** Not by this mirror and not by you.
 - **No distributing adaptations.** You may convert, re-mesh or re-segment your own copy — conversion is not distribution — but you may not publish the result. NoDerivatives withholds exactly that.
 
-**It therefore cannot be bundled into the atlas.** The atlas is AGPL-3.0-or-later, which guarantees downstream recipients the right to use and modify it commercially; NonCommercial withholds that right. The two cannot coexist in one distribution, so this repository stands alone and nothing in the atlas depends on its bytes. A user who wants this geometry in the atlas brings their own copy.
+**This material cannot be bundled into AGPL-licensed software.** The project that maintains this mirror is AGPL-3.0-or-later, which guarantees downstream recipients the right to use and modify it commercially; NonCommercial withholds that right, so the two licences cannot coexist in one distribution. That is why this is a standalone repository and why no code depends on these files being present.
 
 ## Provenance of the material
 
@@ -33,7 +33,7 @@ The underlying microphotographs are of Carnegie collection specimens, made avail
 
 70 file(s), 12279.3 MB total.
 
-**28 file(s), 11.77 GB, are deliberately not published here.** They are the raw grey-value imaging rather than the segmentation, and republishing that much of someone else's imaging is disproportionate when the label volumes carry what makes the deposit useful. They are listed in `MANIFEST.json` with `"localOnly": true` and their checksums, so nothing is hidden — fetch them from the original DOI if you need them.
+**28 file(s), 11.77 GB, are not republished here.** They are raw grey-value imaging rather than segmentation. They are listed in `MANIFEST.json` with `"localOnly": true` and their sizes and checksums, and are available from the original DOI.
 
 | File | Size | SHA-256 |
 | --- | --- | --- |
@@ -113,9 +113,9 @@ Full checksums, original filenames and the source article id for every file are 
 ## Notes for anyone using this
 
 - AmiraMesh `.am` label files are the ones to use: the TIFFs carry only index values, while the `.am` headers carry the label-name to index mapping. Terminologia Embryologica nomenclature is an international standard, so the names themselves are not the depositors' expression.
-- The grey-value volumes are 11.77 GB of the 12.28 GB total and are raw histology. They are fetched for local analysis but marked `localOnly`, because publishing 12 GB of someone else's imaging is disproportionate when the 0.51 GB of labels and 3D-PDFs carries the actual segmentation.
-- Labels plus 3D-PDFs together are 42 files and 0.51 GB with no single file over 100 MB, so that subset needs no release assets at all.
-- Licence verification here is weaker than for the Figshare deposits: the host publishes no licence metadata, so the tool re-fetches the depositors' stated licence page and requires the CC BY-NC-ND marker to still be present. It also publishes no checksums, so `md5MatchedFigshare` is false throughout and SHA-256 is computed locally only.
+- The grey-value volumes account for 11.77 GB of the 12.28 GB total and are raw histological imaging. The mirror fetches them locally but does not republish them; they are available from the original DOI.
+- The 42 label volumes and 3D-PDFs together are 0.51 GB with no single file above 100 MB.
+- The host publishes no licence metadata and no checksums. Licence verification therefore re-fetches the depositors' stated licence page and requires the CC BY-NC-ND marker to be present; `md5MatchedFigshare` is false throughout and SHA-256 is computed locally from the downloaded bytes.
 - Specimens are CS07, 08, 09, 10, 11, 12, 13, 15, 16, 17, 18, 20, 21, 23 — note there is no CS14 or CS19 and no CS22.
 
 ## Verifying the mirror
@@ -127,4 +127,4 @@ python3 -c "import json,hashlib,pathlib;m=json.load(open('MANIFEST.json'));[prin
 
 ---
 
-Mirrored 2026-11-21 by `tools/mirror.ts` in the atlas repository, which re-verifies the licence of every article against the live Figshare metadata before downloading anything and aborts on a mismatch.
+Mirrored 2026-11-21 by `tools/mirror.ts` from [embryogenesis](https://github.com/embryogenesis/embryogenesis). The licence was checked against https://www.3dembryoatlas.com/blank before download.
