@@ -10,7 +10,7 @@ A **verbatim mirror** of [`10.1126/science.aag0053`](https://doi.org/10.1126/sci
 >
 > DOI: [10.1126/science.aag0053](https://doi.org/10.1126/science.aag0053) — licensed **CC BY-NC-ND 4.0**
 
-Licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by/4.0/); see [`LICENSE`](LICENSE). You may share and adapt this material for any purpose, including commercially, provided you give appropriate credit, link to the licence and indicate if changes were made. **This mirror makes no changes.**
+Licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/); see [`LICENSE`](LICENSE). You may share this material verbatim for **non-commercial purposes only**, with attribution. You may **not** distribute adaptations of it. **This mirror makes no changes.**
 
 ## What this is
 
@@ -18,7 +18,7 @@ Fourteen specimens spanning Carnegie stages 7 to 23, segmented from approximatel
 
 ## NonCommercial and NoDerivatives: what that means here
 
-This licence **permits** what this repository does — reproducing and sharing the material verbatim, with attribution, for non-commercial purposes. It withholds two things, and both matter:
+This licence **permits** what this repository does — reproducing and sharing the material verbatim, with attribution, for non-commercial purposes. What it withholds:
 
 - **No commercial use.** Not by this mirror and not by you.
 - **No distributing adaptations.** You may convert, re-mesh or re-segment your own copy — conversion is not distribution — but you may not publish the result. NoDerivatives withholds exactly that.
@@ -81,32 +81,32 @@ The underlying microphotographs are of Carnegie collection specimens, made avail
 | `data/3DAtlas_CS23-9226-v2016-03.pdf` | 8.4 MB | `88ac13c74444a9ba…` |
 | `data/3DAtlas_CS07-8752-grey-v2016-01.am` _(not published here)_ | 105.7 MB | `4b561d4c34473ea7…` |
 | `data/3DAtlas_CS07-8752-grey-v2016-01.tif` _(not published here)_ | 118.6 MB | `984a2c47068bd02a…` |
-| `data/3DAtlas_CS08_8671-grey-v2016-01.am` _(not published here)_ | 183.4 MB | — |
-| `data/3DAtlas_CS08_8671-grey-v2016-01.tif` _(not published here)_ | 196.1 MB | — |
-| `data/3DAtlas_CS09-H712-grey-v2016-01.am` _(not published here)_ | 70.2 MB | — |
-| `data/3DAtlas_CS09-H712-grey-v2016-01.tif` _(not published here)_ | 77.7 MB | — |
-| `data/3DAtlas_CS10-6330-grey-v2016-01.am` _(not published here)_ | 90.4 MB | — |
-| `data/3DAtlas_CS10-6330-grey-v2016-01.tif` _(not published here)_ | 104.3 MB | — |
-| `data/3DAtlas_CS11-6784-grey-v2016-01.am` _(not published here)_ | 138.0 MB | — |
-| `data/3DAtlas_CS11-6784-grey-v2016-01.tif` _(not published here)_ | 148.0 MB | — |
-| `data/3DAtlas_CS12-8505A-grey-v2016-01.am` _(not published here)_ | 336.0 MB | — |
-| `data/3DAtlas_CS12-8505A-grey-v2016-01.tif` _(not published here)_ | 396.6 MB | — |
-| `data/3DAtlas_CS13-836-grey-v2016-01.am` _(not published here)_ | 15.2 MB | — |
-| `data/3DAtlas_CS13-836-grey-v2016-01.tif` _(not published here)_ | 17.7 MB | — |
-| `data/3DAtlas_CS15-3512-grey-v2016-01.am` _(not published here)_ | 887.5 MB | — |
-| `data/3DAtlas_CS15-3512-grey-v2016-01.tif` _(not published here)_ | 1035.7 MB | — |
-| `data/3DAtlas_CS16-6517-grey-v2016-01.am` _(not published here)_ | 244.5 MB | — |
-| `data/3DAtlas_CS16-6517-grey-v2016-01.tif` _(not published here)_ | 289.6 MB | — |
-| `data/3DAtlas_CS17-6521-grey-v2016-01.am` _(not published here)_ | 1110.9 MB | — |
-| `data/3DAtlas_CS17-6521-grey-v2016-01.tif` _(not published here)_ | 1305.1 MB | — |
-| `data/3DAtlas_CS18-6524-grey-v2016-01.am` _(not published here)_ | 844.8 MB | — |
-| `data/3DAtlas_CS18-6524-grey-v2016-01.tif` _(not published here)_ | 974.6 MB | — |
-| `data/3DAtlas_CS20-462-grey-v2016-01.am` _(not published here)_ | 604.3 MB | — |
-| `data/3DAtlas_CS20-462-grey-v2016-01.tif` _(not published here)_ | 695.7 MB | — |
-| `data/3DAtlas_CS21-7254-grey-v2016-01.am` _(not published here)_ | 779.3 MB | — |
-| `data/3DAtlas_CS21-7254-grey-v2016-01.tif` _(not published here)_ | 935.5 MB | — |
-| `data/3DAtlas_CS23-9226-grey-v2016-01.am` _(not published here)_ | 32.4 MB | — |
-| `data/3DAtlas_CS23-9226-grey-v2016-01.tif` _(not published here)_ | 35.7 MB | — |
+| `data/3DAtlas_CS08_8671-grey-v2016-01.am` _(not published here)_ | 183.4 MB | `6ef7c7193c6c9bb3…` |
+| `data/3DAtlas_CS08_8671-grey-v2016-01.tif` _(not published here)_ | 196.1 MB | `cff41007ad811579…` |
+| `data/3DAtlas_CS09-H712-grey-v2016-01.am` _(not published here)_ | 70.2 MB | `714b68ee6ab721f6…` |
+| `data/3DAtlas_CS09-H712-grey-v2016-01.tif` _(not published here)_ | 77.7 MB | `6c5442336f9fff0e…` |
+| `data/3DAtlas_CS10-6330-grey-v2016-01.am` _(not published here)_ | 90.4 MB | `19f811a603fa047e…` |
+| `data/3DAtlas_CS10-6330-grey-v2016-01.tif` _(not published here)_ | 104.3 MB | `d77d909a64108879…` |
+| `data/3DAtlas_CS11-6784-grey-v2016-01.am` _(not published here)_ | 138.0 MB | `1df98d5e34739307…` |
+| `data/3DAtlas_CS11-6784-grey-v2016-01.tif` _(not published here)_ | 148.0 MB | `cf98c0fc85ac5c17…` |
+| `data/3DAtlas_CS12-8505A-grey-v2016-01.am` _(not published here)_ | 336.0 MB | `6590f16186f9f51a…` |
+| `data/3DAtlas_CS12-8505A-grey-v2016-01.tif` _(not published here)_ | 396.6 MB | `ddd5ffc1df9087be…` |
+| `data/3DAtlas_CS13-836-grey-v2016-01.am` _(not published here)_ | 15.2 MB | `496f5862b876fc7e…` |
+| `data/3DAtlas_CS13-836-grey-v2016-01.tif` _(not published here)_ | 17.7 MB | `890260e04bb50fdf…` |
+| `data/3DAtlas_CS15-3512-grey-v2016-01.am` _(not published here)_ | 887.5 MB | `a7142f9883c72ffd…` |
+| `data/3DAtlas_CS15-3512-grey-v2016-01.tif` _(not published here)_ | 1035.7 MB | `0aa52ab82ea509ef…` |
+| `data/3DAtlas_CS16-6517-grey-v2016-01.am` _(not published here)_ | 244.5 MB | `1af50be45a4d4e86…` |
+| `data/3DAtlas_CS16-6517-grey-v2016-01.tif` _(not published here)_ | 289.6 MB | `c74597824cbf0de4…` |
+| `data/3DAtlas_CS17-6521-grey-v2016-01.am` _(not published here)_ | 1110.9 MB | `4c48af92b78e2ac8…` |
+| `data/3DAtlas_CS17-6521-grey-v2016-01.tif` _(not published here)_ | 1305.1 MB | `6d0f13ac22b10743…` |
+| `data/3DAtlas_CS18-6524-grey-v2016-01.am` _(not published here)_ | 844.8 MB | `99c97e0ba65d64ca…` |
+| `data/3DAtlas_CS18-6524-grey-v2016-01.tif` _(not published here)_ | 974.6 MB | `2ea1dedced434faf…` |
+| `data/3DAtlas_CS20-462-grey-v2016-01.am` _(not published here)_ | 604.3 MB | `8ae2d7c577f66811…` |
+| `data/3DAtlas_CS20-462-grey-v2016-01.tif` _(not published here)_ | 695.7 MB | `23548a41df23e62d…` |
+| `data/3DAtlas_CS21-7254-grey-v2016-01.am` _(not published here)_ | 779.3 MB | `a740adef230582a4…` |
+| `data/3DAtlas_CS21-7254-grey-v2016-01.tif` _(not published here)_ | 935.5 MB | `afadd7569a995977…` |
+| `data/3DAtlas_CS23-9226-grey-v2016-01.am` _(not published here)_ | 32.4 MB | `916c361c00fd14cf…` |
+| `data/3DAtlas_CS23-9226-grey-v2016-01.tif` _(not published here)_ | 35.7 MB | `0fe640ea0f99f1bf…` |
 
 Full checksums, original filenames and the source article id for every file are in [`MANIFEST.json`](MANIFEST.json).
 
@@ -127,4 +127,4 @@ python3 -c "import json,hashlib,pathlib;m=json.load(open('MANIFEST.json'));[prin
 
 ---
 
-Mirrored 2026-11-21 by `tools/mirror.ts` from [embryogenesis](https://github.com/embryogenesis/embryogenesis). The licence was checked against https://www.3dembryoatlas.com/blank before download.
+Mirrored 2026-11-23 by `tools/mirror.ts` from [embryogenesis](https://github.com/embryogenesis/embryogenesis). The licence was checked against https://www.3dembryoatlas.com/blank before download.
